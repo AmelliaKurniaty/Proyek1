@@ -12,8 +12,7 @@
             $this->load->library('session');
         }
 
-        public function index()
-        {
+        public function index(){
             $data['title'] = "Data Akun";
             $data['akun'] = $this->akun_model->getAllakun();
 
