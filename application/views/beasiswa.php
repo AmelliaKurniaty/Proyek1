@@ -33,8 +33,8 @@
                         <td><?= $beasiswa['alamat_siswa']?></td>
                         <td><?= $beasiswa['asal_sekolah']?></td>
                         <td><?= $beasiswa['jurusan_sekolah']?></td>
-                        <td><?= $beasiswa['pil_politeknik']?></td>
-                        <td><?= $beasiswa['pil_prodi']?></td>
+                        <td><?= $beasiswa['nama_politeknik']?></td>
+                        <td><?= $beasiswa['nama_prodi']?></td>
                         <td><?= $beasiswa['status_kelolosan']?></td>
                       </tr>
                       <?php } ?>

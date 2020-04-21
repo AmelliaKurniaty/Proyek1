@@ -7,7 +7,10 @@
         public function getAllbeasiswa(){
             $this->db->select('*');
             $this->db->from('siswa');
-            $this->db->join('beasiswa','beasiswa.nisn = siswa.nisn');
+            $this->db->distinct();
+            $this->db->join('beasiswa','beasiswa.nisn = siswa.nisn','Left');
+            $this->db->join('politeknik', 'politeknik.id_politeknik = siswa.pil_politeknik','Left');
+            $this->db->join('prodi', 'prodi.id_prodi = siswa.pil_prodi','Left');
             
             $query = $this->db->get();
             return $query->result_array();

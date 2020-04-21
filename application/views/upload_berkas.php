@@ -23,8 +23,10 @@
                     <th>Ijazah</th>
                     <th>KK</th>
                   </tr>
+                  </thead>
+                  <tbody>
                   <tr>
-                    <td></td>
+                    <td><?= $i++; ?></td>
                     <td></td>
                     <td>
                     <a class="badge badge-primary">Upload</a>
@@ -54,6 +56,7 @@
                     <a class="badge badge-primary">Upload</a>
                     </td>
                   </tr>
+                  </tbody>
               </table>
             </div>
           </div>

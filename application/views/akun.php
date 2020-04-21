@@ -32,7 +32,7 @@
                         <td><?= $akun['password']?></td>
                         <td><?= $akun['level']?></td>
                         <td>
-                        <a href="account/edit/<?= $akun ['id_user'];?>" class="badge badge-success">Edit</a>
+                        <a href="" class="badge badge-success">Edit</a>
                         <a href="" onclick="return confirm('Are you sure you want to delete this item?');"
                            class="badge badge-danger">Delete</a>
                         </td>

@@ -8,57 +8,34 @@
             <div class="table-responsive">
              <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                 <form action="addBeasiswa" method="POST">
-                <thead>
-                  <tr>
-                    <th>NO.</th>
-                    <th>NISN</th>
-                    <th>SK Siswa</th>
-                    <th>SK Bermaterai</th>
-                    <th>SK Sekolah</th>
-                    <th>Slip Gaji</th>
-                    <th>Slip Lstrik</th>
-                    <th>Denah Rumah</th>
-                    <th>Foto Rumah</th>
-                    <th>Ijazah</th>
-                    <th>KK</th>
-                  </tr>
-                  </thead>
-                  <tbody>
-                    <?php
-                      $i = 1;
-                        foreach($berkas as $berkas){?>
-                      <tr>
-                        <td></td>
-                        <td></td>
-                        <td>
-                        <a class="badge badge-primary">Upload</a>
-                        </td>
-                        <td>
-                        <a class="badge badge-primary">Upload</a>
-                        </td>
-                        <td>
-                        <a class="badge badge-primary">Upload</a>
-                        </td>
-                        <td>
-                        <a class="badge badge-primary">Upload</a>
-                        </td>
-                        <td>
-                        <a class="badge badge-primary">Upload</a>
-                        </td>
-                        <td>
-                        <a class="badge badge-primary">Upload</a>
-                        </td>
-                        <td>
-                        <a class="badge badge-primary">Upload</a>
-                        </td>
-                        <td>
-                        <a class="badge badge-primary">Upload</a>
-                        </td>
-                        <td>
-                        <a class="badge badge-primary">Upload</a>
-                        </td>
-                      </tr>
-                  </tbody>
+                <tr>
+                  <td> NISN : </td>
+                  <td> <input type="text" name="nisn"></td>
+              </tr>
+              <tr>
+                  <td> Nama : </td>
+                  <td> <input type="text" name="nama"></td>
+              </tr>
+              <tr>
+                  <td> Asal Sekolah : </td>
+                  <td> <input type="text" name="asal_sekolah"></td>
+              </tr>
+              <tr>
+                  <td> Nilai Rata Rata UN: </td>
+                  <td> <input type="text" name="rata_un"></td>
+              </tr>
+              <tr>
+                  <td> Jurusan Sekolah : </td>
+                  <td> <input type="text" name="jrsn_sekolah"></td>
+              </tr>
+              <tr>
+                  <td> Politeknik Pilihan : </td>
+                  <td> <input type="text" name="poltek"></td>
+              </tr>
+              <tr>
+                  <td> Prodi Pilihan : </td>
+                  <td> <input type="text" name="prodi"></td>
+              </tr>
               </table>
               <button type="submit" name="submit" class="btn btn-primary">Submit</button></div> 
           </form>

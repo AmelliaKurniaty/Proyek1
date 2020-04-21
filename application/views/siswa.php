@@ -39,8 +39,8 @@
                         <td><?= $siswa['no_telepon']?></td>
                         <td><?= $siswa['asal_sekolah']?></td>
                         <td><?= $siswa['jurusan_sekolah']?></td>
-                        <td><?= $siswa['pil_politeknik']?></td>
-                        <td><?= $siswa['pil_prodi']?></td>
+                        <td><?= $siswa['nama_politeknik']?></td>
+                        <td><?= $siswa['nama_prodi']?></td>
                         <td>
                           <a href="" class="badge badge-success">Konfirm</a>
                         </td>

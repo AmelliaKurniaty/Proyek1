@@ -10,15 +10,14 @@
   <meta name="author" content="">
 
   <title>admin</title>
-
-  <link href="http://localhost:8080/proyek/assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="<?= base_url() ?>assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 
   <!-- Page level plugin CSS-->
-  <link href="http://localhost:8080/proyek/assets/vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
+  <link href="<?= base_url() ?>assets/vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
 
   <!-- Custom styles for this template-->
-  <link href="http://localhost:8080/proyek/assets/css/sb-admin.css" rel="stylesheet">
-</head>
+  <link href="<?= base_url() ?>assets/css/sb-admin.css" rel="stylesheet">
+ </head>
 
 <body id="page-top">
 
