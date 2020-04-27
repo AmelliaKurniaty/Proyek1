@@ -10,6 +10,7 @@
   <meta name="author" content="">
 
   <title>admin</title>
+
   <link href="<?= base_url() ?>assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 
   <!-- Page level plugin CSS-->
@@ -17,7 +18,8 @@
 
   <!-- Custom styles for this template-->
   <link href="<?= base_url() ?>assets/css/sb-admin.css" rel="stylesheet">
- </head>
+
+</head>
 
 <body id="page-top">
 
@@ -63,9 +65,25 @@
           <i class="fas fa-book-open"></i>
           <span>Akun</span></a>
       </li>
-     
 
-      
+
+      <li  class="nav-item">
+                <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="nav-link dropdown-toggle">
+                <i class="fas fa-book-open"></i>
+              <span>Data Master</span></a>
+                </a>
+                <ul class="collapse list-unstyled" id="pageSubmenu">
+                    <li>
+                        <a href="<?php echo base_url('politeknik') ?>" class="nav-link">Politeknik</a>
+                    </li>
+                    <li>
+                        <a href="<?php echo base_url('jurusan') ?>" class="nav-link">Jurusan</a>
+                    </li>
+                    <li>
+                        <a href="<?php echo base_url('prodi') ?>" class="nav-link">Prodi</a>
+                    </li>
+                </ul>
+            </li>
     </ul>
 
     <div id="content-wrapper">

@@ -20,6 +20,26 @@
              $this->db->where('id_user', $this->input->post('id_user'));
              $this->db->update('user',$data);
         }
+         public function tambahAkun(){
+            $data=[
+                "nisn" => $this->input->post('nisn', true),
+                "username" => $this->input->post('username', true),
+                "password" => $this->input->post('password', true)
+            ];
+            
+
+            // add child row 
+            $dataChild = array(
+                'nisn' => $this->input->post('nisn', true)
+            );
+            $this->db->insert('siswa', $dataChild);
+
+
+            $this->db->insert('user', $data);
+            // $this->db->where('nisn', $getNISN);
+            // $this->db->update('user',$data);
+        }
+
     }
     
     /* End of file akun_model.php */

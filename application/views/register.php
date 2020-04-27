@@ -10,21 +10,21 @@
   <title>Register Page</title>
 
   <!-- Plugin for fontawesome -->
-  <link href="http://localhost:8080/proyek/assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="<?php echo base_url('assets/vendor/fontawesome-free/css/all.min.css')?>" rel="stylesheet" type="text/css">
 
   <!-- Page level plugin CSS-->
-  <link href="http://localhost:8080/proyek/assets/vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
+  <link href="<?php echo base_url('assets/vendor/datatables/dataTables.bootstrap4.css')?>" rel="stylesheet">
 
   <!-- Custom styles for this template-->
-  <link href="http://localhost:8080/proyek/assets/css/sb-admin.css" rel="stylesheet">
+  <link href="<?php echo base_url('assets/css/sb-admin.css')?>" rel="stylesheet">
 
 </head>
 
 <body class="bg-white">
-<br><br><br><br>
+<br>
   <div class="container" style=" margin-top: 50px">
-    <div class="card card-login bg-light mx-auto mt-5" style="border: 2px solid black;">
-      <div class="card-header" style="color: #; text-align: center;"><h3>REGISTER</h3></div>
+    <div class="card card-login bg-light mx-auto mt-2" style="border: 1px solid black;">
+      <div class="card-header" style="color: #; text-align: center;"><h4>REGISTER</h4></div>
       <div class="card-body">
      
       <form action="<?php echo base_url('');?>" method="POST">
@@ -61,7 +61,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-danger fixed-top">
   <div class="container">
-    <a class="navbar-brand" href="welcome">BEASISWA PENDIDIKAN BUKIT ASAM</a>
+    <a class="navbar-brand" href="welcome" style="margin-left:380px;">BEASISWA PENDIDIKAN BUKIT ASAM</a>
    
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -72,18 +72,18 @@
 </nav>
 
   <!-- Bootstrap core JavaScript-->
-  <script src="http://localhost:8080/proyek/assets/vendor/jquery/jquery.min.js"></script>
-  <script src="http://localhost:8080/proyek/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="<?php echo base_url('assets/vendor/jquery/jquery.min.js')?>"></script>
+  <script src="<?php echo base_url('assets/vendor/bootstrap/js/bootstrap.bundle.min.js')?>"></script>
 
   <!-- Core plugin JavaScript-->
-  <script src="http://localhost:8080/proyek/assets/vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="<?php echo base_url('assets/vendor/jquery-easing/jquery.easing.min.js')?>"></script>
 
   <!-- Page level plugin JavaScript-->
-  <script src="http://localhost:8080/proyek/assets/vendor/datatables/jquery.dataTables.js"></script>
-  <script src="http://localhost:8080/proyek/assets/vendor/datatables/dataTables.bootstrap4.js"></script>
+  <script src="<?php echo base_url('assets/vendor/datatables/jquery.dataTables.js')?>"></script>
+  <script src="<?php echo base_url('assets/vendor/datatables/dataTables.bootstrap4.js')?>"></script>
 
   <!-- Custom scripts for all pages-->
-  <script src="http://localhost:8080/proyek/assets/js/sb-admin.min.js"></script>
+  <script src="<?php echo base_url('assets/js/sb-admin.min.js')?>"></script>
 
 </body>
 
